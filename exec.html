@@ -1,0 +1,78 @@
+<?php
+
+/*
+require_once ("controller/teste.php");
+
+$t = new mostra;
+$t->msg();
+?>*/
+define('BASE_PATH', __DIR__ . '/');
+
+//include(BASE_PATH . 'controller/conexao.php');
+//include(BASE_PATH . 'model/cliente.php');
+//set_include_path(__DIR__);
+include (__DIR__ . '/controller/conexao.php');
+//include (__DIR__ . '/gui/pagPrincipal.html');
+//include("cliente.php");
+
+
+//$con = new Conexao();
+//$con->pesquisarTodosBrinquedos();
+
+
+
+
+//$con->inserirIdCliente($evento_);
+
+
+
+//print_r($con->verificarDisponibilidade(1));
+
+?>
+
+<html>
+<head>
+<title>Bootstrap</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="gui/css/bootstrap.min.css" rel="stylesheet">
+<link href="gui/css/style.css" rel="stylesheet">
+
+<script src="gui/js/jquery.js"></script>
+<script src="gui/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <h2>Table</h2>
+  <div class="table-responsive">          
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nomes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Carlos</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Maria</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Pedro</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+ 
+
+</body>
+</html>
+
+
